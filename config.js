@@ -30,11 +30,11 @@ window.CONFIG = {
       triggers: ["c", "gc", "classroom"],
       key: "KeyC",
       icon: "Classroom",
-      url: "https://classroom.google.com/?pli=1",
+      url: "https://classroom.google.com/u/1/?pli=1",
       normalisedURL: "classroom.google.com/",
       commands: {
         go: {
-          template: "https://classroom.google.com/?pli=1",
+          template: "https://classroom.google.com/u/1/?pli=1",
           description: "college google classroom",
         },
       },

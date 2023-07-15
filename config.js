@@ -46,6 +46,27 @@ window.CONFIG = {
       pinned: true,
     },
     {
+      category: "Entertainment",
+      name: "Fitgirl",
+      triggers: ["f", "fg", "fitgirl"],
+      key: "KeyF",
+      icon: "Fitgirl",
+      url: "https://fitgirl-repacks.site/",
+      normalisedURL: "fitgirl-repacks.site/",
+      commands: {
+        go: {
+          template: "https://fitgirl-repacks.site/",
+          description: "Fitgirl Repacks",
+        },
+      },
+      bgColor: {
+        type: "solid",
+        color: "#FFC0CB",
+      },
+      textColor: "#212121",
+      pinned: true,
+    },
+    {
       category: "Communication",
       name: "Telegram",
       icon: "telegram",

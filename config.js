@@ -47,10 +47,10 @@ window.CONFIG = {
     },
     {
       category: "Entertainment",
-      name: "Fitgirl",
+      name: "Fitgirl Repacks",
       triggers: ["f", "fg", "fitgirl"],
       key: "KeyF",
-      icon: "Fitgirl",
+      icon: "Fitgirl Repacks",
       url: "https://fitgirl-repacks.site/",
       normalisedURL: "fitgirl-repacks.site/",
       commands: {

@@ -25,6 +25,27 @@ window.CONFIG = {
       pinned: true,
     },
     {
+      category: "Login",
+      name: "College Login",
+      triggers: ["l", "cl", "login"],
+      key: "KeyL",
+      icon: "Internet Login",
+      url: "https://20.20.20.21:8090/httpclient.html",
+      normalisedURL: "20.20.20.21:8090/httpclient.html",
+      commands: {
+        go: {
+          template: "https://20.20.20.21:8090/httpclient.html",
+          description: "Login to internet",
+        },
+      },
+      bgColor: {
+        type: "solid",
+        color: "#fe5f55",
+      },
+      textColor: "#212121",
+      pinned: true,
+    },
+    {
       category: "Studies",
       name: "Google Classroom",
       triggers: ["c", "gc", "classroom"],

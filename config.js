@@ -29,7 +29,7 @@ window.CONFIG = {
       name: "College Login",
       triggers: ["l", "cl", "login"],
       key: "KeyL",
-      icon: "Internet Login",
+      icon: "Internet_Login",
       url: "https://20.20.20.21:8090/httpclient.html",
       normalisedURL: "20.20.20.21:8090/httpclient.html",
       commands: {
@@ -50,7 +50,7 @@ window.CONFIG = {
       name: "Google Classroom",
       triggers: ["c", "gc", "classroom"],
       key: "KeyC",
-      icon: "Classroom",
+      icon: "classroom",
       url: "https://classroom.google.com/u/1/?pli=1",
       normalisedURL: "classroom.google.com/",
       commands: {
@@ -71,7 +71,7 @@ window.CONFIG = {
       name: "Fitgirl Repacks",
       triggers: ["f", "fg", "fitgirl"],
       key: "KeyF",
-      icon: "Fitgirl Repacks",
+      icon: "Fitgirl_Repacks",
       url: "https://fitgirl-repacks.site/",
       normalisedURL: "fitgirl-repacks.site/",
       commands: {
@@ -208,8 +208,8 @@ window.CONFIG = {
       icon: "chatGPT",
       url: "https://chat.openai.com/chat",
       normalisedURL: "openai.com",
-      triggers: ["c", "chat", "gpt", "cgpt", "chatgpt"],
-      key: "KeyC",
+      triggers: ["g", "gpt", "cgpt", "chatgpt"],
+      key: "KeyG",
       bgColor: {
         type: "solid",
         color: "#70a597",

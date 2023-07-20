@@ -28,7 +28,7 @@ window.CONFIG = {
       category: "Login",
       name: "College Login",
       triggers: ["l", "cl", "login"],
-      key: "KeyL",
+      key: "KeyH",
       icon: "Internet_Login",
       url: "https://20.20.20.21:8090/httpclient.html",
       normalisedURL: "20.20.20.21:8090/httpclient.html",
@@ -93,8 +93,8 @@ window.CONFIG = {
       icon: "telegram",
       url: "http://t.me",
       normalisedURL: "t.me",
-      triggers: ["m", "tm", "tg", "teleg", "telega", "telegram"],
-      key: "KeyM",
+      triggers: ["tm", "tg", "teleg", "telega", "telegram"],
+      key: "KeyT",
       commands: {
         go: {
           template: "{@}/{$}",
@@ -208,8 +208,8 @@ window.CONFIG = {
       icon: "chatGPT",
       url: "https://chat.openai.com/chat",
       normalisedURL: "openai.com",
-      triggers: ["g", "gpt", "cgpt", "chatgpt"],
-      key: "KeyG",
+      triggers: ["chat", "gpt", "cgpt", "chatgpt"],
+      key: "KeyP",
       bgColor: {
         type: "solid",
         color: "#70a597",
@@ -224,7 +224,6 @@ window.CONFIG = {
       url: "https://translate.google.com",
       normalisedURL: "translate.google.com",
       triggers: ["t", "translate"],
-      key: "KeyT",
       commands: {
         search: {
           template: "{@}/?text={$}",
@@ -271,6 +270,7 @@ window.CONFIG = {
       url: "https://open.spotify.com",
       normalisedURL: "spotify.com",
       triggers: ["music", "sp", "sfy", "spo", "spotify"],
+      key: "KeyM",
       commands: {
         search: {
           template: "{@}/search/{$}",

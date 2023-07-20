@@ -472,6 +472,7 @@ window.CONFIG = {
       icon: "slack",
       triggers: ["sl", "slack"],
       url: "https://app.slack.com",
+      key: "KeyJ",
       normalisedURL: "slack.com",
       bgColor: {
         type: "gradient",

@@ -431,8 +431,8 @@ window.CONFIG = {
       triggers: ["a", "am", "amz", "amazon"],
       icon: "amazon",
       key: "KeyA",
-      url: "https://www.amazon.com/",
-      normalisedURL: "amazon.com",
+      url: "https://www.amazon.in/",
+      normalisedURL: "amazon.in",
       bgColor: {
         type: "gradient",
         gradientType: "linear",

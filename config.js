@@ -91,7 +91,7 @@ window.CONFIG = {
       category: "Communication",
       name: "Telegram",
       icon: "telegram",
-      url: "http://t.me",
+      url: "https://web.telegram.org/k/",
       normalisedURL: "t.me",
       triggers: ["tm", "tg", "teleg", "telega", "telegram"],
       key: "KeyT",
